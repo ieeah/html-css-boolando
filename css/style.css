@@ -19,32 +19,17 @@ body {
     border-radius: 10px;
 }
 
-#product_list {
-    list-style-type: none;
-}
-
-#product_list li {
-    width: 30%;
-    height: 550px;
+.prod_card {
     display: inline-block;
-    background-color: red;
-    position: relative;
-}
-
-li .img {
-    width: 100%;
-    height: 80%;
+    width: 30%;
+    height: 200px;
     background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
-#product_list li .img:first-of-type {
-    background-color: purple;
-    opacity: 0;
+.prod_card div {
+    display: inline-block;
 }
 
-#product_list li:hover .img:first-of-type {
-    opacity: 1;
+.prod_card > div {
+    background-image: url(".img/1b.webp");
 }
