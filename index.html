@@ -1,134 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Boolando</title>
 </head>
-
 <body>
 
-    <div class="main_container">
-        
-        <!-- la scheda prodotto -->
-        <div class="card" id="c1">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">25%</span>
-                <span class="tag">sustainability</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
-                </div>
-            </div>
-            
-        </div>
-        
-        <div class="card" id="c2">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">25%</span>
-                <span class="tag">sustainability</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
-                </div>
-            </div>
-            
-        </div>
 
-        <div class="card" id="c3">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">25%</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
-                </div>
-            </div>
-            
-        </div>
+    <main>
 
-        <div class="card" id="c4">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">45%</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
+        <ul id="products_list">
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/1b.webp" alt="">
+                    <img src="./img/1.webp" alt="">
+                    <a class="fav">&hearts;</a>
+                    <span class="labels">
+                        <span class="tag disc_pctg">50%</span>
+                        <span class="tag eco">sostenibile</span>
+                    </span>
                 </div>
-            </div>
-            
-        </div>
-
-        <div class="card" id="c5">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">45%</span>
-                <span class="tag">sustainability</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
+                <div class="details">
+                    <h5>Levi's</h5>
+                    <h4>Relaxed fit tee unisex</h4>
+                    <span class="price">14,99€</span>
+                    <span class="full_price">30€</span>
                 </div>
-            </div>
-            
-        </div>
+            </li>
 
-        <div class="card" id="c6">
-            <div class="main_bg"></div>
-            <div class="hoverpic"></div>
-            <div class="fav"></div>
-            <div class="labels">
-                <span class="discount">45%</span>
-            </div>
-            <div class="details">
-                <div class="brand">Brand</div>
-                <div class="name">Nome Modello</div>
-                <div class="pricing">
-                    <span class="price">Prezzo attuale</span>
-                    <span class="full">prezzo pieno</span>
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/2b.webp" alt="">
+                    <img src="./img/2.webp" alt="">
+                    <span class="fav">&hearts;</span>
+                    <span class="labels">
+                        <span class="tag disc_pctg">25%</span>
+                    </span>
                 </div>
-            </div>
-            
-        </div>
-        
-    </div>
+                <div class="details">
+                    <h5>Guess</h5>
+                    <h4>Roses tee</h4>
+                    <span class="price">24,99€</span>
+                    <span class="full_price">100€</span>
+                </div>
+            </li>
 
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/3b.webp" alt="">
+                    <img src="./img/3.webp" alt="">
+                    <span class="fav">&hearts;</span>
+                    <span class="labels">
+                        <span class="tag disc_pctg">25%</span>
+                        <span class="tag eco">sostenibile</span>
+                    </span>
+                </div>
+                <div class="details">
+                    <h5>Come zucchero filato</h5>
+                    <h4>Voglia di colori pastello</h4>
+                    <span class="price">37,50€</span>
+                    <span class="full_price">50€</span>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/4b.webp" alt="">
+                    <img src="./img/4.webp" alt="">
+                    <span class="fav">&hearts;</span>
+                    <span class="labels">
+                        <span class="tag disc_pctg">20%</span>
+                    </span>
+                </div>
+                <div class="details">
+                    <h5>Levi's</h5>
+                    <h4>tee unisex</h4>
+                    <span class="price">52€</span>
+                    <span class="full_price">65€</span>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/5b.webp" alt="">
+                    <img src="./img/5.webp" alt="">
+                    <span class="fav">&hearts;</span>
+                    <span class="labels">
+                        <span class="tag eco">sostenibile</span>
+                    </span>
+                </div>
+                <div class="details">
+                    <h5>Maya Deluxe</h5>
+                    <h4>stripe bodice</h4>
+                    <span class="full_price">30€</span>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="pics_labels">
+                    <img src="./img/6b.webp" alt="">
+                    <img src="./img/6.webp" alt="">
+                    <span class="fav">&hearts;</span>
+                    <span class="labels">
+                        <span class="tag disc_pctg">15%</span>
+                        <span class="tag eco">sostenibile</span>
+                    </span>
+                </div>
+                <div class="details">
+                    <h5>Esprit</h5>
+                    <h4>Maglione - black</h4>
+                    <span class="price">59,50€</span>
+                    <span class="full_price">70€</span>
+                </div>
+            </li>
+        </ul>
+
+    </main>
 </body>
-
 </html>
